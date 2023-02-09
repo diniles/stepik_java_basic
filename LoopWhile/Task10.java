@@ -29,6 +29,20 @@ import java.util.Scanner;
 
 public class Task10 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        String asterisk = "*";
+        int i = 1;
+        while (i <= num) {
+            int j = 1;
+            while (j <= num - i) {
+                System.out.print(" ");
+                j++;
+            }
+            System.out.println(asterisk);
+            asterisk += "**";
+            i++;
+        }
 /*
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -48,19 +62,5 @@ public class Task10 {
             i++;
             System.out.println();
         }*/
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        String s = "*";
-        int i = 1;
-        while (i <= number) {
-            int j = number - i;
-            while (j >= 0) {
-                System.out.print(" ");
-                j--;
-            }
-            System.out.println(s);
-            s = s + "**";
-            i++;
-        }
     }
 }
