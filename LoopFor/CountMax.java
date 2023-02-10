@@ -34,5 +34,17 @@ public class CountMax {
             }
         }
         System.out.println(count);
+/* Additional solution
+        Scanner sc = new Scanner(System.in);
+
+        int max = Integer.MIN_VALUE, count = 0;
+        for (int n = sc.nextInt(); n != 0; n = sc.nextInt()) {
+            if (n >= max) {
+                count += (max == n ? 1 : -count + 1);
+                max = n;
+            }
+        }
+        System.out.println(count);*/
+
     }
 }
