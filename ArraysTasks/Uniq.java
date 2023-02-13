@@ -19,7 +19,7 @@ Sample Output:
 1
 */
 
-package Arrays;
+package ArraysTasks;
 
 import java.util.Scanner;
 

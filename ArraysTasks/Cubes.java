@@ -13,7 +13,7 @@
 //512
 //1331
 
-package Arrays;
+package ArraysTasks;
 
 import java.util.Scanner;
 

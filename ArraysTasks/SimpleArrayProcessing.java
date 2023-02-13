@@ -21,7 +21,7 @@ Sample Output:
 10
 */
 
-package Arrays;
+package ArraysTasks;
 
 import java.util.Scanner;
 
