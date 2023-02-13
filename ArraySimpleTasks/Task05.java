@@ -41,6 +41,7 @@ public class Task05 {
         }
         int a = sc.nextInt();
         int b = sc.nextInt();
+        sc.close();
         if (a < 0 || a > n - 1 || b < 0 || b > n - 1) {
             System.out.println("Error");
         } else {
